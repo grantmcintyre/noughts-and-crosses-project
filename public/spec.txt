@@ -1,0 +1,7 @@
+functionality - 
+    click on a square, 0 or X appears
+        2D array 
+    2 player game 
+    player must get 3 in a row of either variable to win 
+    
+      

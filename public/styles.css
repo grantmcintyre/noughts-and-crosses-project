@@ -1,0 +1,40 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-color: #0F120E;
+  justify-content: center;
+}
+
+h1 {
+  color: #D3DED1;
+  text-align: center;
+  font-family: "Rock Salt", cursive;
+}
+
+.board {
+  display: grid;
+  grid-template-columns: 175px 175px 175px;
+  grid-template-rows: 175px 175px 175px;
+  text-align: center;
+  vertical-align: middle;
+  background-image: url("argyle.png");
+  background-color: #0F120E;
+  font-size: 150px;
+  border: 1px solid;
+  line-height: 175px;
+}
+
+#restart {
+  text-align: center;
+  margin-left: 49vw;
+  color: #D3DED1;
+}
+
+.boardsquareOdd {
+  background-color: #0F120E;
+}
+
+.boardsquareEven {
+  background-color: #BBFCB3;
+}
